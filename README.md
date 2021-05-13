@@ -4,7 +4,7 @@
 
 Welcome to open-source Mr Orbot hacks and tricks! We are open for you, only for you!
 
-**IoTExploiter:**
+**IoTexploiter:**
 
 ```
 Initializing thread #0 (2.94.148.0) ...
