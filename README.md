@@ -35,4 +35,4 @@ Thread #4 (2.94.148.4) - connection rejected
 
 ## Warnings
 
-Please do not use these exploits on real machines.
+Please do not use these exploits on real machines. Please don't.
